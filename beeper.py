@@ -8,7 +8,7 @@ import time
 import os
 
 mixer.init()
-alert=mixer.Sound('./beep.wav')
+alert=mixer.Sound('/opt/beeper/beep.wav')
 while(True):
     print('beeping...')
     alert.play()
